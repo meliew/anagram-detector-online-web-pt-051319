@@ -12,9 +12,9 @@ end
   #compare the letters with ???
 
   def match(string)
-    string.keep_if do |word|
+    string.keep_if do |w|
 
-      word.split('').sort == string.split('').sort
+      word.split('').sort == w.split('').sort
   end
 end
 
