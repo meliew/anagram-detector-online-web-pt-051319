@@ -16,6 +16,7 @@ end
 
       word.split('').sort == string.split('').sort
   end
+end
 
 
 end
