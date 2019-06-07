@@ -11,8 +11,11 @@ end
   #sort the letters
   #compare the letters with ???
 
-end
+  def match(string)
+    string.detect do |word| 
 
+      word.split('').sort == string.split('').sort
+  end
 
 
 end
