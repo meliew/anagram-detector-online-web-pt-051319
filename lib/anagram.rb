@@ -12,7 +12,7 @@ end
   #compare the letters with ???
 
   def match(string)
-    string.detect do |word| 
+    string.detect do |word|
 
       word.split('').sort == string.split('').sort
   end
