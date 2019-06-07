@@ -1,14 +1,14 @@
 class Anagram
 
-  attr_accessor :word 
-  
+  attr_accessor :word
+
 
 def initialize(word)
   @word = word
 end
 
   #turn the word into an array of letters
-  #sort the letters 
+  #sort the letters
   #compare the letters with ???
 
 end
